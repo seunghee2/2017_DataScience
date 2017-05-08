@@ -1,0 +1,120 @@
+path <- "/home/hyunholee/data_analize/data"
+dir_list <- list.files(path = ".", pattern = NULL, all.files = FALSE, full.names = FALSE, recursive = FALSE)
+for(dir in dir_list){
+# set the directory
+print(dir)
+path_dir <- paste(path,dir,sep="/")
+print(path_dir)
+#set the file
+file_list <- list.files(path =path_dir, pattern = NULL, all.files = FALSE, full.names = FALSE, recursive = FALSE)
+print(file_list)
+for(files in file_list){
+# only step file
+setwd(path_dir)
+# print(files)
+if(step_file <- grepl('steps.json',files)){
+data <- fromJSON(file=files)
+total_data <- data$`activities-step`
+}
+}
+}
+for(dir in dir_list){
+# set the directory
+print(dir)
+path_dir <- paste(path,dir,sep="/")
+print(path_dir)
+#set the file
+file_list <- list.files(path =path_dir, pattern = NULL, all.files = FALSE, full.names = FALSE, recursive = FALSE)
+print(file_list)
+for(files in file_list){
+# only step file
+setwd(path_dir)
+# print(files)
+if(step_file <- grepl('steps.json',files)){
+data <- fromJSON(file=files)
+total_data <- data$`activities-step`
+}
+}
+}
+data_temp <- data$`activities-heart-intraday`
+temp <- data_temp$dataset
+len <- 24
+value_vector <- rep(0, len)
+setwd("/home/hyunholee/data_analize/data")
+library(rjson)
+#install.packages("googleVis")
+library(googleVis)
+path <- "/home/hyunholee/data_analize/data"
+dir_list <- list.files(path = ".", pattern = NULL, all.files = FALSE, full.names = FALSE, recursive = FALSE)
+for(dir in dir_list){
+# set the directory
+print(dir)
+for(dir in dir_list){
+# set the directory
+print(dir)
+debugSource('~/R/R/asdf/visualization_R.R')
+path_dir <- paste(path,dir,sep="/")
+print(path_dir)
+#set the file
+file_list <- list.files(path =path_dir, pattern = NULL, all.files = FALSE, full.names = FALSE, recursive = FALSE)
+print(file_list)
+for(files in file_list){
+# only step file
+setwd(path_dir)
+# print(files)
+if(step_file <- grepl('steps.json',files)){
+data <- fromJSON(file=files)
+total_data <- data$`activities-step`
+}
+}
+}
+data_temp <- data$`activities-heart-intraday`
+debugSource('~/R/R/asdf/visualization_R.R')
+for(dir in dir_list){
+# set the directory
+print(dir)
+path_dir <- paste(path,dir,sep="/")
+print(path_dir)
+#set the file
+file_list <- list.files(path =path_dir, pattern = NULL, all.files = FALSE, full.names = FALSE, recursive = FALSE)
+file_list <- list.files(path =path_dir, pattern = NULL, all.files = FALSE, full.names = FALSE, recursive = FALSE)
+file_list <- list.files(path =path_dir, pattern = NULL, all.files = FALSE, full.names = FALSE, recursive = FALSE)
+for(dir in dir_list){
+# set the directory
+print(dir)
+path_dir <- paste(path,dir,sep="/")
+print(path_dir)
+#set the file
+file_list <- list.files(path =path_dir, pattern = NULL, all.files = FALSE, full.names = FALSE, recursive = FALSE)
+print(file_list)
+for(files in file_list){
+# only step file
+setwd(path_dir)
+# print(files)
+if(step_file <- grepl('steps.json',files)){
+data <- fromJSON(file=files)
+total_data <- data$`activities-step`
+}
+}
+}
+debugSource('~/R/R/asdf/visualization_R.R')
+debugSource('~/R/R/asdf/visualization_R.R', echo=TRUE)
+debugSource('~/R/R/asdf/visualization_R.R', echo=TRUE)
+debugSource('~/R/R/asdf/visualization_R.R', echo=TRUE)
+debugSource('~/R/R/asdf/visualization_R.R', echo=TRUE)
+debugSource('~/R/R/asdf/visualization_R.R', echo=TRUE)
+debugSource('~/R/R/asdf/visualization_R.R', echo=TRUE)
+debugSource('~/R/R/asdf/visualization_R.R', echo=TRUE)
+path <- "/home/hyunholee/data_analize/data"
+print(path_dir)
+for(dir in dir_list){
+path <- "/home/hyunholee/data_analize/data"
+dir_list <- list.files(path = ".", pattern = NULL, all.files = FALSE, full.names = FALSE, recursive = FALSE)
+for(dir in dir_list){
+debugSource('~/R/R/asdf/visualization_R.R', echo=TRUE)
+debugSource('~/R/R/asdf/visualization_R.R')
+setwd("/home/hyunholee/data_analize/data")
+setwd("/home/hyunholee/data_analize/data")
+setwd("/home/hyunholee/data_analize/data")
+debugSource('~/R/R/asdf/visualization_R.R', echo=TRUE)
+debugSource('~/R/R/asdf/visualization_R.R')
